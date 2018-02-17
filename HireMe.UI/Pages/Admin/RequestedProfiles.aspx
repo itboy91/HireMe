@@ -14,7 +14,7 @@
 
     <div class="row top-buffer">
 
-        <div class="table table-hover table-striped MOI-table">
+        <div class="table table-hover table-striped MOI-table">  
             <asp:GridView ID="grdCompany" AutoGenerateColumns="false" runat="server" EmptyDataText="NoRecords" OnRowDataBound="grdCompany_RowDataBound"
                 BorderWidth="0" AllowPaging="true" AllowCustomPaging="true"  CssClass="table table-hover table-striped MOI-table">
                 <Columns>

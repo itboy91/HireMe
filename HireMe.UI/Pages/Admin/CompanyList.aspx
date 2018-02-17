@@ -13,7 +13,7 @@
         <div class="col-lg-4">
             <div class="form-group">
                 <asp:TextBox runat="server" ID="txtName" CssClass="form-control " placeholder="Comany Name"></asp:TextBox>
-            </div>
+            </div>    
         </div>
         <div class="col-lg-4">
             <asp:Button runat="server" ID="btnSearch" OnClick="btnSearch_Click" Text="Search"  CssClass="btn  btn-info"/>
