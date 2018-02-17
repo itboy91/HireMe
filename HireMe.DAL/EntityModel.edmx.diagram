@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c39cd59078564a82b8ca615e4c2552b8" Name="Diagram1">
+        <EntityTypeShape EntityType="HireMeModel.aspnet_Applications" Width="1.5" PointX="0.75" PointY="15.75" />
+        <EntityTypeShape EntityType="HireMeModel.aspnet_Membership" Width="1.5" PointX="7.5" PointY="13.625" />
+        <EntityTypeShape EntityType="HireMeModel.aspnet_Paths" Width="1.5" PointX="3" PointY="23.625" />
+        <EntityTypeShape EntityType="HireMeModel.aspnet_PersonalizationAllUsers" Width="1.5" PointX="5.25" PointY="27" />
+        <EntityTypeShape EntityType="HireMeModel.aspnet_PersonalizationPerUser" Width="1.5" PointX="7.5" PointY="20" />
+        <EntityTypeShape EntityType="HireMeModel.aspnet_Profile" Width="1.5" PointX="7.5" PointY="10.25" />
+        <EntityTypeShape EntityType="HireMeModel.aspnet_Roles" Width="1.5" PointX="3" PointY="14.375" />
+        <EntityTypeShape EntityType="HireMeModel.aspnet_SchemaVersions" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="HireMeModel.aspnet_Users" Width="1.5" PointX="5.25" PointY="14.25" />
+        <EntityTypeShape EntityType="HireMeModel.aspnet_WebEvent_Events" Width="1.5" PointX="2.75" PointY="0.75" />
+        <EntityTypeShape EntityType="HireMeModel.Company" Width="1.5" PointX="7.5" PointY="30" />
+        <EntityTypeShape EntityType="HireMeModel.Individual" Width="1.5" PointX="7.5" PointY="23.625" />
+        <EntityTypeShape EntityType="HireMeModel.JobInfo" Width="1.5" PointX="9.75" PointY="30" />
+        <EntityTypeShape EntityType="HireMeModel.LookupCategory" Width="1.5" PointX="6" PointY="6.5" />
+        <EntityTypeShape EntityType="HireMeModel.Lookup" Width="1.5" PointX="8.25" PointY="6.125" />
+        <EntityTypeShape EntityType="HireMeModel.sysdiagram" Width="1.5" PointX="4.75" PointY="0.75" />
+        <EntityTypeShape EntityType="HireMeModel.UserSkill" Width="1.5" PointX="10.5" PointY="15.375" />
+        <EntityTypeShape EntityType="HireMeModel.UserType" Width="1.5" PointX="10.5" PointY="12.375" />
+        <AssociationConnector Association="HireMeModel.FK__aspnet_Me__Appli__4F7CD00D" />
+        <AssociationConnector Association="HireMeModel.FK__aspnet_Pa__Appli__01142BA1" />
+        <AssociationConnector Association="HireMeModel.FK__aspnet_Ro__Appli__6E01572D" />
+        <AssociationConnector Association="HireMeModel.FK__aspnet_Us__Appli__3F466844" />
+        <AssociationConnector Association="HireMeModel.FK__aspnet_Me__UserI__5070F446" />
+        <AssociationConnector Association="HireMeModel.FK__aspnet_Pe__PathI__06CD04F7" />
+        <AssociationConnector Association="HireMeModel.FK__aspnet_Pe__PathI__0A9D95DB" />
+        <AssociationConnector Association="HireMeModel.FK__aspnet_Pe__UserI__0B91BA14" />
+        <AssociationConnector Association="HireMeModel.FK__aspnet_Pr__UserI__6477ECF3" />
+        <AssociationConnector Association="HireMeModel.FK_Company_aspnet_Users" />
+        <AssociationConnector Association="HireMeModel.FK_Individual_aspnet_Users" />
+        <AssociationConnector Association="HireMeModel.FK_UserSkill_aspnet_Users" />
+        <AssociationConnector Association="HireMeModel.FK_UserTypes_aspnet_Users" />
+        <AssociationConnector Association="HireMeModel.FK_JobInfo_Company" />
+        <AssociationConnector Association="HireMeModel.FK_Lookups_LookupCategory" />
+        <AssociationConnector Association="HireMeModel.FK_UserSkill_Lookups" />
+        <AssociationConnector Association="HireMeModel.FK_UserTypes_Lookups" />
+        <AssociationConnector Association="HireMeModel.aspnet_UsersInRoles" />
+        <EntityTypeShape EntityType="HireMeModel.CompanyFavourite" Width="1.5" PointX="0.75" PointY="5.75" />
+        <EntityTypeShape EntityType="HireMeModel.RequestedCv" Width="1.5" PointX="5.375" PointY="3.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
